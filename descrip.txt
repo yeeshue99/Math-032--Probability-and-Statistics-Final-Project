@@ -1,0 +1,30 @@
+Parkinson's data set
+Description of variables:
+
+1. subject# - Integer that uniquely identifies each subject
+2. age - Subject age
+3. sex - Subject gender '0' - male, '1' - female
+4. test_time - Time since recruitment into the trial. The integer part is the number of days since recruitment.
+5. motor_UPDRS - Clinician's motor UPDRS score, linearly interpolated
+6. total_UPDRS - Clinician's total UPDRS score, linearly interpolated
+
+7. Jitter(%)
+8. Jitter(Abs)
+9. Jitter:RAP
+10. Jitter:PPQ5
+11. Jitter:DDP - Several measures of variation in fundamental frequency
+
+12. Shimmer
+13. Shimmer(dB)
+14. Shimmer:APQ3
+15. Shimmer:APQ5
+16. Shimmer:APQ11
+17. Shimmer:DDA - Several measures of variation in amplitude
+
+18. NHR
+19. HNR - Two measures of ratio of noise to tonal components in the voice
+
+20. RPDE - A nonlinear dynamical complexity measure
+21. DFA - Signal fractal scaling exponent
+22. PPE - A nonlinear measure of fundamental frequency variation 
+
